@@ -17,7 +17,7 @@ net.createConnection((socket) => {
             let cart_id = uuid.v4();
             let sql = "INSERT INTO cart (cart_id, user_id) VALUES (?,?)";
             connection.query(sql, [cart_id, data.toString()], (err, result) => {
-
+                console.log(result);
             });
 
         }

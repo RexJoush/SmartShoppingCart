@@ -1,0 +1,7 @@
+{
+  "host"      : "www.rexjoush.com",
+  "user"      : "root",
+  "password"  : "liyihang123",
+  "port"      : "3306",
+  "database"  : "smartCart"
+}

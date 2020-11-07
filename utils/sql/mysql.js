@@ -8,7 +8,7 @@ let data = fs.readFileSync(__dirname + "/mysql.json", "utf-8");
 let config = JSON.parse(data);
 
 /// 创建连接
-connection = mysql.createConnection({
+let connection = mysql.createConnection({
     host: config.host,
     user: config.user,
     password: config.password,
@@ -18,6 +18,6 @@ connection = mysql.createConnection({
 
 connection.connect();
 
-module.exports = connection;
+module.exports =  connection;
 
 

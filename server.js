@@ -3,7 +3,7 @@ let uuid = require("uuid");
 let connection = require("./utils/sql/mysql");
 
 // 创建 TCP 监听实例
-net.createConnection((socket) => {
+net.createServer((socket) => {
 
     // 绑定连接事件
     socket.on('connection', (client) => {

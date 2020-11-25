@@ -7,7 +7,8 @@ let utils = require("../utils/function/util");
 router.get('/getQrcode', (req,res)=>{
 
     // 获取 openid
-    let openid = req.query.openid;
+    let event = JSON.parse(req.query.event);
+    let openid = event.openid;
 
     let sql =   "SELECT " +
                     "qrcode " + // 查询二维码

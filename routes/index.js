@@ -8,7 +8,7 @@ router.get('/getQrcode', (req,res)=>{
 
     // 获取 openid
     let event = JSON.parse(req.query.event);
-    let openid = event.openid;
+    let openid = event.userInfo.openId;
 
     let sql =   "SELECT " +
                     "qrcode " + // 查询二维码

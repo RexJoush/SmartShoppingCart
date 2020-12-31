@@ -22,21 +22,19 @@ create table purchased (
 
 -- 订单表
 create table order_list (
-    order_id varchar(255), -- 订单id,标识商品列表
+    order_id varchar(255), -- 订单id, 标识商品列表
     openid varchar(255), -- 订单所属用户
-    date varchar(20), -- 下单日期
-    time varchar(20), -- 下单时间
+    time varchar(50), -- 下单时间 // 2020.10.31 20:30:24
     order_total varchar(20) -- 总价格
-
 );
 
 -- 订单商品列表表
 create table order_commodity (
     order_id varchar(255), -- 订单id
     name varchar(50), -- 商品名
+    price varchar(20), -- 商品单价
     amount int, -- 商品数量
-    subtotal varchar(20), -- 小计价格
-    total varchar(20) -- 总价格
+    subtotal varchar(20) -- 小计价格
 );
 
 -- 用户表

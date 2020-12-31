@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0b16cda9-8005-44eb-8daa-c7074f83701d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/sql/mysql.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sql/mysql.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/sql/table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sql/table.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.7.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.11.10" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.16" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Small Program/Small-Record-Manage" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -82,58 +82,16 @@
       <workItem from="1605939761828" duration="3854000" />
       <workItem from="1606305668613" duration="9000" />
       <workItem from="1606308895239" duration="2996000" />
-      <workItem from="1606391925934" duration="4111000" />
+      <workItem from="1606391925934" duration="8898000" />
+      <workItem from="1607260652313" duration="3707000" />
+      <workItem from="1608253582457" duration="5093000" />
+      <workItem from="1609035840390" duration="23738000" />
+      <workItem from="1609228856903" duration="5307000" />
+      <workItem from="1609334099221" duration="774000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="731" y="274" key="#HTTP_Proxy" timestamp="1604411629950">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="731" y="274" key="#HTTP_Proxy/-1600.0.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1604411629950" />
-    <state x="322" y="381" key="#SQL_Dialects" timestamp="1604411360685">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="322" y="381" key="#SQL_Dialects/-1600.0.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1604411360685" />
-    <state x="552" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604411633319">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="552" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1600.0.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1604411633319" />
-    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1605944488984">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="740" y="295" key="FileChooserDialogImpl/-1600.0.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1605944488984" />
-    <state width="1876" height="266" key="GridCell.Tab.0.bottom" timestamp="1605965061039">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1876" height="266" key="GridCell.Tab.0.bottom/-1600.0.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1605965061039" />
-    <state width="1876" height="266" key="GridCell.Tab.0.center" timestamp="1605965061039">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1876" height="266" key="GridCell.Tab.0.center/-1600.0.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1605965061039" />
-    <state width="1876" height="266" key="GridCell.Tab.0.left" timestamp="1605965061039">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1876" height="266" key="GridCell.Tab.0.left/-1600.0.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1605965061039" />
-    <state width="1876" height="266" key="GridCell.Tab.0.right" timestamp="1605965061039">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1876" height="266" key="GridCell.Tab.0.right/-1600.0.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1605965061039" />
-    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1604411567700">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="220" height="477" key="HiddenNamespacesPopup/-1600.0.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1604411567700" />
-    <state x="461" y="184" key="SettingsEditor" timestamp="1604758921576">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="461" y="184" key="SettingsEditor/-1600.0.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1604758921576" />
-    <state x="556" y="264" width="807" height="814" key="search.everywhere.popup" timestamp="1604759010803">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1137" y="220" width="672" height="678" key="search.everywhere.popup/-1600.0.1600.900/0.0.1920.1080@-1600.0.1600.900" timestamp="1604751625910" />
-    <state x="556" y="264" width="807" height="814" key="search.everywhere.popup/-1600.0.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1604759010803" />
   </component>
 </project>

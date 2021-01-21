@@ -22,7 +22,7 @@ net.createServer((socket) => {
 
         if (data.toString()[6] === 'u'){
 
-            let commodity_id = s.substring(7, s.length);
+            let commodity_id = s.substring(7, s.length).trim();
             console.log(commodity_id);
             let cart_id = uuid.v4();
             let sql = "INSERT INTO purchased (commodity_id, cart) VALUES (?,?)";
@@ -35,7 +35,7 @@ net.createServer((socket) => {
         // 用户码
         else {
             let cart_id = uuid.v4();
-            let openid = s.substring(6,s.length);
+            let openid = s.substring(6,s.length).trim();
             console.log(openid);
             let sql = "INSERT INTO cart (openid, cart) VALUES (?,?)";
             mysql.connection.query(sql, [cart_id, data.toString()], (err, result) => {

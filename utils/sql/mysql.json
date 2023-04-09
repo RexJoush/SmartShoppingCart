@@ -1,5 +1,5 @@
 {
-  "host"      : "www.rexjoush.com",
+  "host"      : "localhost",
   "user"      : "root",
   "password"  : "liyihang123",
   "port"      : "3306",
